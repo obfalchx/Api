@@ -7,7 +7,7 @@ getgenv().Dark = function()
             chooses = v
         end
     end
-    game:GetService("TeleportService"):TeleportToPlaceInstance(7449423635, chooses.jobId, game.Players.LocalPlayer)
+    game:GetService("TeleportService"):TeleportToPlaceInstance(4442272183, chooses.jobId, game.Players.LocalPlayer)
 end
 function CheckBossAttack()
     for _,Boss in pairs(game.Workspace.Enemies:GetChildren()) do
